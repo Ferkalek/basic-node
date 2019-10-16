@@ -1,0 +1,21 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "first node.js tutorial package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "node"
+  ],
+  "author": "Anton Ferkalek <ferkalekanton@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
